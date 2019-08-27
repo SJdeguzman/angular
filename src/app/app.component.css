@@ -45,11 +45,19 @@ h4,p{
   font-size:  14px;;
 }
 
-@media (max-width: 770px){
+@media (max-width: 623px){
   h4,p{
   text-align: center;
 
 }
+.padding {
+  padding-top: 200px; 
+}
+}
+@media (max-width: 375px){
+  .padding {
+    padding-top: 400px; 
+  }
 }
 
 .center {
