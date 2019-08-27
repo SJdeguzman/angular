@@ -3,6 +3,7 @@
 	width: 70%;
 	margin: 0 auto;
 	padding-top: 2rem;
+
 }
 .par {
   padding-top: 2rem;
@@ -11,6 +12,10 @@ p{
  font-size:  14px;
  
 }
+h1{
+	margin: 0 auto;
+	padding-top: 100px;
+  padding-bottom: 60px;}
 
 h4{
   font-size:  14px;
@@ -27,6 +32,7 @@ h4,p{
 
 }
 
+
 }
 
 .center {
@@ -36,10 +42,11 @@ h4,p{
   width: 50%;
 }
 .circle {
-  height: 100px;
+  height: 150px;
   display: inline-block;
 }
 
 .back {
-  
+    height: 250px;
+   background-image: url("https://previews.123rf.com/images/argus456/argus4561403/argus456140300638/26392837-pink-background-with-some-music-notes-on-it.jpg");
 }
