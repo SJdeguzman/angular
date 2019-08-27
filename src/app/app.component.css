@@ -1,22 +1,40 @@
-
+.navbar {
+  background-color: #4F4D53;
+  height: 48px 
+}
+.logo {
+  margin-left:15%;
+  height:35px;
+}
 .welcome {
 	width: 70%;
 	margin: 0 auto;
 	padding-top: 2rem;
-
+}
+.padding {
+  padding-top: 100px; 
+  padding-bottom: 50px
+}
+.how{
+  color: #E8BE02; 
+  font-style:Roboto Black; 
+  text-height: 64px ;
 }
 .par {
   padding-top: 2rem;
+  color: #4F4D53; 
+  font-style:Roboto Regular;
+  text-height: 14px
 }
-p{
- font-size:  14px;
- 
-}
+
 h1{
 	margin: 0 auto;
 	padding-top: 100px;
-  padding-bottom: 60px;}
-
+  padding-bottom: 60px;
+  text-height: 100px; 
+  color : #4F4D53; 
+  font-style : Roboto Black ;
+}
 h4{
   font-size:  14px;
   color: #E8BE02;
@@ -24,6 +42,7 @@ h4{
 }
 h4,p{
   text-align: left;
+  font-size:  14px;;
 }
 
 @media (max-width: 770px){
@@ -31,8 +50,6 @@ h4,p{
   text-align: center;
 
 }
-
-
 }
 
 .center {
@@ -42,11 +59,23 @@ h4,p{
   width: 50%;
 }
 .circle {
-  height: 150px;
+  height: 130px;
   display: inline-block;
+  
+}
+.par {
+  padding-top: 2rem;
+  text-align: center;
 }
 
 .back {
     height: 250px;
    background-image: url("https://previews.123rf.com/images/argus456/argus4561403/argus456140300638/26392837-pink-background-with-some-music-notes-on-it.jpg");
+}
+footer{
+  background-color:#4F4D53; 
+  color: white; 
+  text-height: 20px; 
+  padding: 35px 35px 35px 35px;
+   line-height: 0px;
 }
