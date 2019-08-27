@@ -24,7 +24,9 @@ h4,p{
 @media (max-width: 770px){
   h4,p{
   text-align: center;
+
 }
+
 }
 
 .center {
@@ -32,4 +34,12 @@ h4,p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.circle {
+  height: 100px;
+  display: inline-block;
+}
+
+.back {
+  
 }
