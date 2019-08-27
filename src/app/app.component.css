@@ -1,0 +1,30 @@
+
+.welcome {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.par {
+  padding-top: 2rem;
+}
+p{
+ font-size:  14px;
+ 
+}
+
+h4{
+  font-size:  14px;
+  color: #E8BE02;
+  margin-bottom: 25px;
+}
+h4,p{
+  text-align: left;
+}
+
+@media (max-width: 770px){
+  h4,p{
+  text-align: center;
+}
+
+
+}
